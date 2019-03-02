@@ -1,0 +1,9 @@
+{
+  "name": "sample-volkswarge",
+  "version": "1.0.0",
+  "description": "test for volkswargen",
+  "main": "index.js",
+  "repository": "https://github.com/sakakendo0321/sample-volkswarge",
+  "author": "sakakendo <sakakendo0321@gmail.com>",
+  "license": "MIT"
+}

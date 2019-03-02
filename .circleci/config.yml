@@ -1,0 +1,23 @@
+version: 2
+jobs:
+    build:
+        working_directory: ~/workspace
+        docker:
+            - image: node
+        steps:
+            - checkout
+            - run:
+                name: version infomation
+                command: |
+                    echo "Node $(node -v)"
+                    echo "yarn $(yarn --version)"
+
+            - run:
+                name: Install dependencies
+                command: yarn
+            - run :
+                name: start script
+                command: |
+                    node -e " \
+                             console.log('hello world');"
+
