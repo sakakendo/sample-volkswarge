@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/sakakendo0321/sample-volkswarge",
   "author": "sakakendo <sakakendo0321@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "volkswagen": "^1.4.2"
+  }
 }
