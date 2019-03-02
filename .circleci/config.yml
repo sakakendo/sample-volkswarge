@@ -19,5 +19,6 @@ jobs:
                 name: start script
                 command: |
                     node -e " \
-                             console.log('hello world');"
+                             console.log('hello world');\
+                             process.exit(1);"
 
